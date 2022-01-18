@@ -1,26 +1,38 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <div class="container-text">TIC TAC TOE</div>
+    <div class="container-game">
+      <table-component></table-component>
+    </div>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import TableComponent from "./components/TableComponent.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    TableComponent,
+  },
+  mounted() {
+    // this.$store.commit("increment");
+    // console.log(this.$store.state.count);
+  },
+};
 </script>
 
-<style>
+<style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Roboto:wght@300&display=swap");
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.container-text {
+  font-size: 35px;
+  font-weight: bold;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 40px;
+}
+.container-game {
+  text-align: center;
 }
 </style>
