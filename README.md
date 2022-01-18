@@ -2,8 +2,8 @@
 
 We can see the secuence of plays in the console for each turn.
 
-![image-game](https://)
-![image-console](https://)
+![image-game](https://github.com/luisangel2895/tik-tak-toe/blob/965b5904583c56458135002696197bdd1e8072dc/images/Screenshot_2.png)
+![image-console](https://github.com/luisangel2895/tik-tak-toe/blob/965b5904583c56458135002696197bdd1e8072dc/images/Screenshot_1.png)
 
 ## Project setup
 
