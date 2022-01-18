@@ -1,6 +1,9 @@
 # TIC TAC TOE
 
-We can see the secuence of plays in the console for each turn
+We can see the secuence of plays in the console for each turn.
+
+![image-game](https://)
+![image-console](https://)
 
 ## Project setup
 
